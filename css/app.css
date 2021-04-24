@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    min-width: 320px;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+        circle,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 9, 121, 1) 0%,
+        rgba(0, 212, 255, 1) 100%
+    );
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 3.6em;
+    font-weight: 500;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+p#description {
+    font-size: 1.6em;
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+#container {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 90rem;
+    background-color: azure;
+    margin-top: 1rem;
+    padding: 2rem 0 2rem 0;
+    border-radius: 5px;
+}
+
+.labels {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.6em;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    width: 40%;
+}
+
+.inputs {
+    display: grid;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.radio,
+.checkbox {
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 0;
+    padding-bottom: 10px;
+}
+
+.userRatings,
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 1em;
+}
+
+button {
+    margin: 2em 0 0 0;
+    padding: 1em;
+    width: 40%;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+    background-color: #333333;
+}
+
+button:hover {
+    background-color: #4f4f4f;
+    cursor: pointer;
+}
+.footer {
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.footer a {
+    text-decoration: none;
+    font-weight: 700;
+}
