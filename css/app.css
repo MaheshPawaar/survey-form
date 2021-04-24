@@ -9,7 +9,7 @@ body {
     font-family: "Noto Sans", sans-serif;
     font-size: 10px;
     text-align: center;
-    min-width: 500px;
+    min-width: 320px;
     background: rgb(2, 0, 36);
     background: radial-gradient(
         circle,
@@ -100,3 +100,8 @@ button:hover {
     text-decoration: none;
     font-weight: 700;
 }
+
+@media (max-width: 500px){
+    
+}
+
